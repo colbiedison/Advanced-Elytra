@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "advancedelytra",
+  "version": "${version}",
+  "name": "Advanced Elytra Flight",
+  "description": "Roll your elytra and fly in any orientation!",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/advancedelytra/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "us.dison.advancedelytra.client.FabricClientModInitializer"
+    ],
+    "main": [
+      "us.dison.advancedelytra.FabricModInitializer"
+    ]
+  },
+  "mixins": [
+    "advancedelytra.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

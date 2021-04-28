@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "us.dison.advancedelytra.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CameraMixin",
+    "GameRendererMixin",
+    "MouseMixin",
+    "PlayerEntityRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
